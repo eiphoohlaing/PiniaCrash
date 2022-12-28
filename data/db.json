@@ -1,0 +1,25 @@
+{
+    "tasks":[
+        {
+            "id":1,
+            "title":"buy some milk", 
+            "isFav":false
+        },
+        {
+            "id":2,
+            "title":"play game",
+            "isFav":true
+        },
+        {
+            "id":3,
+            "title":"read book",
+            "isFav":false
+        },
+        {
+            "id":4,
+            "title":"become an vuejs developer",
+            "isFav":true
+        }
+    ]
+    
+}
