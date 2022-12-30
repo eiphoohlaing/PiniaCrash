@@ -33,6 +33,8 @@
         <TaskDetails :task="task"/>
       </div>
     </div>
+  
+    <button @click="taskStore.$reset">Reset State</button>
   </main>
 </template>
 
@@ -51,6 +53,6 @@ const filter = ref('all')
 const{FavCount}=storeToRefs(useTaskStore())
 const{TotalCount}=storeToRefs(useTaskStore())
 
-// const {taskStore} = useTaskStore()
-// taskStore()
+// For reset only
+const taskStore = useTaskStore()
 </script>
